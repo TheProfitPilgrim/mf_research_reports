@@ -34,7 +34,7 @@ Data info
 3. Rest are small/micro cap
 
 All indian indices data are from https://www.niftyindices.com/reports/historical-data
-S&P 500 data from https://shillerdata.com/
+S&P 500 data from https://shillerdata.com/ and all data only till 28/02/2025
 
 ### 1. Correlation between Earnings and Price 
 
@@ -101,6 +101,9 @@ Now lets compare the different indices' price correlation vs their earnings **in
 ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture19.png) 
 
 Comparitively, the much lower correlation in Nifty Midcap 150 and Small cap 250 is indicative of the divergence in price and earnings changes.
+This can be seen in the below graph as well 
+
+![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture40.png) 
 
 The 4 cases that are interesting are : 
 
