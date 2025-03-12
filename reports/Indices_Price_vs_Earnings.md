@@ -135,7 +135,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 [Link to try out a misleading pointer made with an ill-fit statistical model](https://mfproject.streamlit.app/index_ptr) 
 
-[Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
+[Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/N50_index_probability_model.ipynb)
 
 * Other mildly Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
 
