@@ -49,7 +49,7 @@ S&P 500 data from https://shillerdata.com/ and all data only till 28/02/2025
 
 These cover the top 750 cos in Indian market (large cap) ( mcap of the smallest co is 4500 cr) and S&P 500. 
 
-* As expected, the absolute value of long term correlation (close to 1, where 1 is perfect correlation) of all these indices indicates that there is quite a strong positive relation b/w the earnings level and price of an index, i.e, they both increase / decrease together.
+* As expected, the value of long term correlation (close to 1, where 1 is perfect correlation) of all these indices indicates that there is quite a strong positive relation b/w the earnings level and price of an index, i.e, they both increase / decrease together.
 
 Large Cap Indices : 
 
