@@ -5,6 +5,7 @@ In [SS 1 _report](https://github.com/TheProfitPilgrim/mf_research_reports/blob/m
 
 Drawbacks / Issues with this analysis : 
 1. Though it looks roughly linearly related, correlation might not be a great way to measure.
+2. Largely, just the up / down movement of the index is being studied to keep it simple.
 
 The broad goal of this study is to look at different indices's price vs earnings relationship across time in different indices in different markets, using a simple metric for this - correlation. 
 
@@ -140,8 +141,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 2. 6 month rolling return (126-day assuming 1Y is 252 trading days) :
 
-![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture39.png)  
+   ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture39.png)  
 
 * About 68% of the time, the market has risen in a span of 6 months
-
-
+* If you take extreme cases (when probability using the CDF points to Up/Down with >75% chance) index has risen 79% of the time. 
