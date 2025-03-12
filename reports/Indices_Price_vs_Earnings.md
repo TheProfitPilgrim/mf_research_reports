@@ -34,7 +34,7 @@ Data info
 3. Rest are small/micro cap
 
 All indian indices data are from https://www.niftyindices.com/reports/historical-data
-S&P 500 data from https://shillerdata.com/
+S&P 500 data from https://shillerdata.com/ and all data only till 28/02/2025
 
 ### 1. Correlation between Earnings and Price 
 
@@ -49,7 +49,7 @@ S&P 500 data from https://shillerdata.com/
 
 These cover the top 750 cos in Indian market (large cap) ( mcap of the smallest co is 4500 cr) and S&P 500. 
 
-* As expected, the absolute value of long term correlation (close to 1, where 1 is perfect correlation) of all these indices indicates that there is quite a strong positive relation b/w the earnings level and price of an index, i.e, they both increase / decrease together.
+* As expected, the value of long term correlation (close to 1, where 1 is perfect correlation) of all these indices indicates that there is quite a strong positive relation b/w the earnings level and price of an index, i.e, they both increase / decrease together.
 
 Large Cap Indices : 
 
@@ -101,6 +101,9 @@ Now lets compare the different indices' price correlation vs their earnings **in
 ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture19.png) 
 
 Comparitively, the much lower correlation in Nifty Midcap 150 and Small cap 250 is indicative of the divergence in price and earnings changes.
+This can be seen in the below graph as well 
+
+![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture41.png) 
 
 The 4 cases that are interesting are : 
 
@@ -132,7 +135,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 [Link to try out a misleading pointer made with an ill-fit statistical model](https://mfproject.streamlit.app/index_ptr) 
 
-[Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
+[Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/N50_index_probability_model.ipynb)
 
 * Other mildly Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
 
