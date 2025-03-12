@@ -124,7 +124,7 @@ The 4 cases that are interesting are :
   * If someone considered the Covid bottom as a buying opportunity, it can be attributed to these reasons : 
     * Covid will not continue on for say 3 or 5 years and that things will come back to normal ==> Rebound in earnings and price (Long-term long)
     * The market overreacted to the expected fall in earnings ==> Earnings turn out to be better than anticipated even with covid ==> Market corrects for this excess decline (short-term long)
-  * After all the vaccinations and lockdown removal, the market again bounced back to pre-covid levels before the earnings actually caught up and even overshot too much on the upper side.
+  * After all the vaccinations and lockdown removal, the market again bounced back to pre-covid levels before the earnings actually caught up.
 
 Thus, even though in the long term, the price move as per earnings, they do deviate in the short term thus providing potential opportunities.
 
