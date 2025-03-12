@@ -103,7 +103,7 @@ Now lets compare the different indices' price correlation vs their earnings **in
 Comparitively, the much lower correlation in Nifty Midcap 150 and Small cap 250 is indicative of the divergence in price and earnings changes.
 This can be seen in the below graph as well 
 
-![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture40.png) 
+![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture41.png) 
 
 The 4 cases that are interesting are : 
 
