@@ -1,7 +1,7 @@
 ## Intro
 In [SS 1 _report](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Report%20ss_1.md), the suspected reason for the formed Pfs outperforming Nifty 50, 500 but underperforming Nifty Midcap 100 was the Midcap index's price rally. 
 
-[Link to try out a misleading pointer made with an ill-fit statistical model]() 
+[Link to try out a misleading pointer made with an ill-fit statistical model](https://mfproject.streamlit.app/index_ptr) 
 
 Tldr 🥱😴 :
 
