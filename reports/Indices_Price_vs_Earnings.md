@@ -124,3 +124,24 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 [M1 : Reversion to mean idea](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
 
+* Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
+
+1. If we assume that : Fair value = historical median PE * current earnings, then we can look at the deviation of the actual index price from this value - this value is more of a reference to see how the market has varied rather than a proper "fair value"
+     * This "deviation" has ranged from :
+         * -39.63 % : During 2008 fin crisis to
+         * 107.41 % : During the market rebound after covid - the markets soared back in anticipation but the earnings at that point still had not caught up. 
+         * The mean and median of this deviation are 12.47 and 11.52. Most of the time, the market is at a +ve "deviation"
+           
+         ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture38.png)
+
+         * If we need to split the probability (historical) equally on both sides :
+           * (Probability of deviation > 25%) = (Probability of deviation < -0.5%) = ~27.5 %
+           * Deviation b/w -0.5% and 25% = 45 %  
+
+2. 6 month rolling return (126-day assuming 1Y is 252 trading days) :
+
+![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture39.png)  
+
+* About 68% of the time, the market has risen in a span of 6 months
+
+
