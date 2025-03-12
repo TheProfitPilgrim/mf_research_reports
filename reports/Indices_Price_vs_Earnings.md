@@ -1,6 +1,15 @@
 ## Intro
 In [SS 1 _report](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Report%20ss_1.md), the suspected reason for the formed Pfs outperforming Nifty 50, 500 but underperforming Nifty Midcap 100 was the Midcap index's price rally. 
 
+[Link to try out a misleading pointer made with an ill-fit statistical model]() 
+
+Tldr 🥱😴 :
+
+1. Earnings definitely play a huge role in determining the broad direction of index
+2. Though in the long term the earnings and index moves together, in the short-term there is enough divergence b/w the two both in over and under valuation side
+3. Black swans increase outliers and distort the data - so maybe its better to have a condition to check if its "Normal market" or  a "black swan" and then deal with each seperately  
+4. If blindly betting based on history, its better to be a blind bull rather than a blind bear  
+
 ### *Click on any graph to view it in a new tab*
 
 Drawbacks / Issues with this analysis : 
