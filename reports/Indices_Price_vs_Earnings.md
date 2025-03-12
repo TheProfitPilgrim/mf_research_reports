@@ -7,7 +7,7 @@ Tldr 🥱😴 :
 
 1. Earnings definitely play a huge role in determining the broad direction of index
 2. Though in the long term the earnings and index moves together, in the short-term there is enough divergence b/w the two both in over and under valuation side
-3. Black swans increase outliers and distort the data - so maybe its better to have a condition to check if its "Normal market" or  a "black swan" and then deal with each seperately  
+3. Black swans increase outliers and distort the data - so maybe its better to have a quantitative condition to check if its "Normal market" or  a "black swan" and then deal with each seperately  
 4. If blindly betting based on history, its better to be a blind bull rather than a blind bear  
 
 ### *Click on any graph to view it in a new tab*
@@ -139,8 +139,11 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 1. If we assume that : Fair value = historical median PE * current earnings, then we can look at the deviation of the actual index price from this value - this value is more of a reference to see how the market has varied rather than a proper "fair value"
      * This "deviation" has ranged from :
          * -39.63 % : During 2008 fin crisis to
-         * 107.41 % : During the market rebound after covid - the markets soared back in anticipation but the earnings at that point still had not caught up. 
-         * The mean and median of this deviation are 12.47 and 11.52. Most of the time, the market is at a +ve "deviation"
+         * 107.41 % : During the market rebound after covid - the markets soared back in anticipation but the earnings at that point still had not caught up.
+  
+         ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture40.png)
+       
+         * The mean and median of all the historical deviations are 12.47 and 11.52. Most of the time, the market is at a +ve "deviation"
            
          ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture38.png)
 
@@ -148,7 +151,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
            * (Probability of deviation > 25%) = (Probability of deviation < -0.5%) = ~27.5 %
            * Deviation b/w -0.5% and 25% = 45 %  
 
-2. 6 month rolling return (126-day assuming 1Y is 252 trading days) :
+3. 6 month rolling return (126-day assuming 1Y is 252 trading days) :
 
    ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture39.png)  
 
