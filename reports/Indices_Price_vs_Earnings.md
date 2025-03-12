@@ -1,8 +1,6 @@
 ## Intro
 In [SS 1 _report](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Report%20ss_1.md), the suspected reason for the formed Pfs outperforming Nifty 50, 500 but underperforming Nifty Midcap 100 was the Midcap index's price rally. 
 
-[Link to try out a misleading pointer made with an ill-fit statistical model](https://mfproject.streamlit.app/index_ptr) 
-
 Tldr 🥱😴 :
 
 1. Earnings definitely play a huge role in determining the broad direction of index
@@ -132,7 +130,9 @@ Thus, even though in the long term, the price move as per earnings, they do devi
   * Past index data and market behaviour
   * Latest PE and Price of index
 
-[M1 : Reversion to mean idea](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
+[Link to try out a misleading pointer made with an ill-fit statistical model](https://mfproject.streamlit.app/index_ptr) 
+
+[Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
 
 * Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
 
