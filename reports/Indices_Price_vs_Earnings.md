@@ -1,10 +1,20 @@
 ## Intro
 In [SS 1 _report](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Report%20ss_1.md), the suspected reason for the formed Pfs outperforming Nifty 50, 500 but underperforming Nifty Midcap 100 was the Midcap index's price rally. 
 
+[Link to try out a misleading pointer made with an ill-fit statistical model]() 
+
+Tldr 🥱😴 :
+
+1. Earnings definitely play a huge role in determining the broad direction of index
+2. Though in the long term the earnings and index moves together, in the short-term there is enough divergence b/w the two both in over and under valuation side
+3. Black swans increase outliers and distort the data - so maybe its better to have a condition to check if its "Normal market" or  a "black swan" and then deal with each seperately  
+4. If blindly betting based on history, its better to be a blind bull rather than a blind bear  
+
 ### *Click on any graph to view it in a new tab*
 
 Drawbacks / Issues with this analysis : 
 1. Though it looks roughly linearly related, correlation might not be a great way to measure.
+2. Largely, just the up / down movement of the index is being studied to keep it simple.
 
 The broad goal of this study is to look at different indices's price vs earnings relationship across time in different indices in different markets, using a simple metric for this - correlation. 
 
@@ -124,3 +134,23 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 [M1 : Reversion to mean idea](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
 
+* Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
+
+1. If we assume that : Fair value = historical median PE * current earnings, then we can look at the deviation of the actual index price from this value - this value is more of a reference to see how the market has varied rather than a proper "fair value"
+     * This "deviation" has ranged from :
+         * -39.63 % : During 2008 fin crisis to
+         * 107.41 % : During the market rebound after covid - the markets soared back in anticipation but the earnings at that point still had not caught up. 
+         * The mean and median of this deviation are 12.47 and 11.52. Most of the time, the market is at a +ve "deviation"
+           
+         ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture38.png)
+
+         * If we need to split the probability (historical) equally on both sides :
+           * (Probability of deviation > 25%) = (Probability of deviation < -0.5%) = ~27.5 %
+           * Deviation b/w -0.5% and 25% = 45 %  
+
+2. 6 month rolling return (126-day assuming 1Y is 252 trading days) :
+
+   ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture39.png)  
+
+* About 68% of the time, the market has risen in a span of 6 months
+* If you take extreme cases (when probability using the CDF points to Up/Down with >75% chance) index has risen 79% of the time. 
