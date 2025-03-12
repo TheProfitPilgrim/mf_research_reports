@@ -134,7 +134,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 [Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/index_probability_model.ipynb)
 
-* Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
+* Other mildly Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
 
 1. If we assume that : Fair value = historical median PE * current earnings, then we can look at the deviation of the actual index price from this value - this value is more of a reference to see how the market has varied rather than a proper "fair value"
      * This "deviation" has ranged from :
