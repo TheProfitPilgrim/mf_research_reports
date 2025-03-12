@@ -61,18 +61,18 @@ Effect of Note 1 in this section : If've considered 400 days which is ~1 year, f
 
 Graph 1 : Grouping each rebalancing frequency and finding the average of portfolio returns across different time periods 
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture1.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture1.png)
 
 Graph 2 : The different portfolio returns for each time period
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture2.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture2.png)
 
 * The X-axis in the above graph is the time period between start and end date in years
 * It is clear that the Quarterly and Semi-Annual reblancing perform worse than the Annual and No rebalancing cases. However, between the Annual and No rebalancing cases, there isn't a clear winner as of now.
 
 Graph 3 : Box and Whisker plot to study effect of rebalance_frequency
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture3.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture3.png)
 
 1. Observation : The "Annual" and "No Rebalance" appear to have the highest median portfolio return (the "X" is highest in these boxes). "Semi-Annual" is next, and "Quarterly" has the lowest median.
 Interpretation: On average, "Annual" and "No Rebalance" tend to generate the highest portfolio returns compared to the other rebalancing frequencies. "Quarterly" rebalancing tends to generate the lowest returns on average.
@@ -93,7 +93,7 @@ The number of funds in the portfolio (top_n_alpha) has been varied and the min t
 
 Graph 4 : Comparison of arithmetic mean of cumulative portfolio returns for different rebalancing_frequency 
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture6.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture6.png)
 
 ## 1.2 : Studying number of funds in portfolio 
 
@@ -103,7 +103,7 @@ The above was for a single value of top_n_alpha (20). Lets see the effect of dif
 
 Graph 5 : Pivot chart to study effect of top_n_alpha
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture4.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture4.png)
 
 For number of funds in an equiweighted portfolio, for :
    * No rebalancing case : Clear trend of - lesser the number of funds in the portfolio, better the returns
@@ -129,7 +129,7 @@ But since average returns is being used, it is still useful for comparison.
 
 Graph 6 : Pivot chart to study effect of min_days
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture5.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture5.png)
 
 As expected, the returns of the portfolio increase as we reduce the need for a track record. Take for example funds with ~100 days track record. It means that the fund was formed 3 months ago. And in the bull market peak, with Nifty touching 26k levels, it is only expected that these funds have insanely good "All-time" alpha. 
 
@@ -154,7 +154,7 @@ Date is matched with each portfolio for calculating the Index return
 
 Graph 7 : Bar Chart to compare Portfolio vs Index Returns for the 11 portfolios formed
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture7.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture7.png)
 
 From the graph, 11 is most recently formed portfolio (formed 1 month ago) and 1 is the portfolio formed 1 year ago. 
 
@@ -162,19 +162,19 @@ Three Year Period
 
 Graph 8 : Bar Chart to compare Portfolio vs Index Returns for the 35 portfolios formed
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture8.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture8.png)
 
 Five Year Period
 
 Graph 9 : Bar Chart to compare Portfolio vs Index Returns for the 59 portfolios formed
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture9.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture9.png)
 
 10 Year Period
 
 Graph 10 : Bar Chart to compare Portfolio vs Index Returns for all the portfolios formed
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture10.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture10.png)
 
 Probability of outperformance = 100%
 Thus we can see that if someone had used ss_1 to form a portfolio anytime in the past decade, they are guaranteed to outperform the Nifty 50. 
@@ -185,19 +185,19 @@ The same plots of sections 2.1 - 2.4 is compared with similar plots of that done
 
 Graph 11 : Bar chart with all 4 for 1 year period
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture11.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture11.png)
 
 Graph 12 : Line chart with all 4 for 3 year period
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture12.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture12.png)
 
 Graph 13 : Bar chart with all 4 for 5 year period
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture13.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture13.png)
 
 Graph 14 : Bar chart with all 4 for 10 year period
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture14.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture14.png)
 
 Probability of outperformance = 100%
 Thus we can see that if someone had used ss_1 to form a portfolio anytime in the past decade, they are guaranteed to outperform Nifty 500.
@@ -213,17 +213,17 @@ Thus we can see that if someone had used ss_1 to form a portfolio anytime in the
 
 Graph 15, 16, 17, 18 : Above table's data points visualised
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture15.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture15.png)
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture16.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture16.png)
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture17.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture17.png)
 
-![gr](https://raw.githubusercontent.com/TheProfitPilgrim/MF_Backtest_app/main/reports/report_media/Picture18.png)
+![gr](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture18.png)
 
 We can see that someone would have been way better off investing in Nifty Midcap 100 in the past decade compared to the system's portfolio. 
 
 Many of the portfolios formed contained a lot of Midcap and small cap equity funds. If mid and small cap stocks had risen up by a lot more than Nifty 50 and 500, it makes sense that the Index, Mid / small cap funds are going to do so much better than the Nifty 50. 
 
 But was this price outperformance backed by sufficient earnings increase? Is it sustainable? 
-Explored in : [Indices : Price vs Earnings](https://github.com/TheProfitPilgrim/MF_Backtest_app/blob/main/reports/index_earn_vs_price.md)
+Explored in : [Indices : Price vs Earnings](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Indices_Price_vs_Earnings.md)
