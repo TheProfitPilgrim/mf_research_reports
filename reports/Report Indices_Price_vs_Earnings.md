@@ -1,5 +1,5 @@
 ## Intro
-In [SS 1 _report](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Report%20ss_1.md), the suspected reason for the formed Pfs outperforming Nifty 50, 500 but underperforming Nifty Midcap 100 was the Midcap index's price rally. 
+In [SS 1 _report](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/Report%20ss_1.md), the suspected reason for the formed Pfs outperforming Nifty 50, 500 but underperforming Nifty Midcap 100 was the Midcap index's price rally. 
 
 Tldr 🥱😴 :
 
@@ -18,11 +18,11 @@ The broad goal of this study is to look at different indices's price vs earnings
 
 Correlation makes sense only if its *linearly* related. Let's check how the relations looks in a scatter plot
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture20.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture21.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture20.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture21.png) |
 |-----------------------|-----------------------|
 | Nifty 50 | Nifty Next 50 |
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture22.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture23.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture22.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture23.png) |
 |-----------------------|-----------------------|
 | Nifty Midcap 150 | Nifty Smallcap 250 |
 
@@ -58,7 +58,7 @@ Large Cap Indices :
 
 * However, in the short term, they don't always rise and fall together. There is quite some variation. We can see how correlation changes in the short term (1 year rolling window) for Nifty 50 and S&P 500 by plotting the rolling correlation graph.
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture24.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture25.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture24.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture25.png) |
 |-----------------------|-----------------------|
 | Nifty 50 | S&P 500 |
 
@@ -73,23 +73,23 @@ If both had risen or fallen together, the correlation would be positive.
 
 To see how the actual movement has occured, we can take a look at the **bar** graphs below (% YOY change for the date span) : 
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture30.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture26.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture30.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture26.png) |
 |-----------------------|-----------------------|
 | Nifty 50 Line | Nifty 50 YOY % change |
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture31.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture28.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture31.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture28.png) |
 |-----------------------|-----------------------|
 | Nifty Next 50 Line | Nifty Next 50 YOY % change |
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture32.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture29.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture32.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture29.png) |
 |-----------------------|-----------------------|
 | Nifty Midcap 150 Line | Nifty Midcap  150 Semi-annual % change |
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture35.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture36.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture35.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture36.png) |
 |-----------------------|-----------------------|
 | Nifty Smallcap 250 Line | Nifty Smallcap 250 Semi-annual % change |
 
-| ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture33.png) | ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture37.png) |
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture33.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture37.png) |
 |-----------------------|-----------------------|
 | Nifty microcap 250 Line | Nifty microcap 250 Semi-annual % change |
 
@@ -98,12 +98,12 @@ Now lets compare the different indices' price correlation vs their earnings **in
 
 * If micro cap index is included, then the date range is going to be constrained to <5 yrs. So lets compare the correlations of Nifty 50, Next 50, Midcap 150 and Smallcap 250 over 2016-2025 period.
 
-![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture19.png) 
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture19.png) 
 
 Comparitively, the much lower correlation in Nifty Midcap 150 and Small cap 250 is indicative of the divergence in price and earnings changes.
 This can be seen in the below graph as well 
 
-![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture41.png) 
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture41.png) 
 
 The 4 cases that are interesting are : 
 
@@ -118,7 +118,7 @@ The 4 cases that are interesting are :
 
 * Just because something falls into one of these categories does not mean its an opportunity directly - Let's take Covid for example :
 
-![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture27.png) 
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture27.png) 
   
   * The market as soon as it came to know of the lockdown, anticipated that many industries like Aviation / Tourism are not going to be functional and thus fell predicting a fall in corporate earnings (blue line dips and reverts before red wrt X axis).
   * The fall in earnings did later happen - so the market wasn't entirely foolish.
@@ -135,7 +135,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 [Link to try out a misleading pointer made with an ill-fit statistical model](https://mfproject.streamlit.app/index_ptr) 
 
-[Above analysis](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/mf_index_analysis/N50_index_probability_model.ipynb)
+[Above analysis](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_src/mf_index_analysis/N50_index_probability_model.ipynb)
 
 * Other mildly Interesting stuff from the analysis (for Nifty 50 - past 26 years) : 
 
@@ -144,11 +144,11 @@ Thus, even though in the long term, the price move as per earnings, they do devi
          * -39.63 % : During 2008 fin crisis to
          * 107.41 % : During the market rebound after covid - the markets soared back in anticipation but the earnings at that point still had not caught up.
   
-         ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture40.png)
+         ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture40.png)
        
          * The mean and median of all the historical deviations are 12.47 and 11.52. Most of the time, the market is at a +ve "deviation"
            
-         ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture38.png)
+         ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture38.png)
 
          * If we need to split the probability (historical) equally on both sides :
            * (Probability of deviation > 25%) = (Probability of deviation < -0.5%) = ~27.5 %
@@ -156,7 +156,7 @@ Thus, even though in the long term, the price move as per earnings, they do devi
 
 3. 6 month rolling return (126-day assuming 1Y is 252 trading days) :
 
-   ![Graph](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_media/Picture39.png)  
+   ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture39.png)  
 
 * About 68% of the time, the market has risen in a span of 6 months
 * If you take extreme cases (when probability using the CDF points to Up/Down with >75% chance) index has risen 79% of the time. 
