@@ -31,34 +31,120 @@ Lets filter the funds which have Nifty 500 as benchmark
 
 Only the following type of funds have Nifty 500 Benchmark according to SEBI : 
 
-    * ELSS, Flexi Cap, Dividend Yield, Value / Contra  & Focused Fund 
-    * In thematic funds - Business Cycle / Special Situation, Exports, Momentum, Pioneering Innovation, Resurgent India, Sector Rotation Funds  
+ * ELSS, Flexi Cap, Dividend Yield, Value / Contra  & Focused Fund 
+ * In thematic funds - Business Cycle / Special Situation, Exports, Momentum, Pioneering Innovation, Resurgent India, Sector Rotation Funds  
 
 Notes : 
 1. All the fund return table values are Arithmetic Mean of the values of individual funds in the pf with N funds (i.e, pf return if equal allocation)
-2. Suppose top 20 funds are picked based on best 3 month recent return and 3 of the funds have existed for only 5 months, then for the mean calculation of 6 month and higher periods, these will be excluded. A minimum of 75% of the funds must have a particular data point to calculate average. 
+2. Suppose top 20 funds are picked based on best 3 month recent return and 2/20 of the funds have existed for only 5 months, then for the mean calculation of 6 month and higher periods, these will be excluded. A minimum of 75% of the funds must have a particular data point to calculate average. 
 
-### Picking the top N 3-month toppers from this list
+### Picking the top 3-month toppers 
 
-|Portfolio size (funds) | 3m absolute | 6m absolute | 1y absolute | 3y cagr   | 5y cagr   | 10y cagr     |
-|------------------|-------------|-------------|-------------|-----------|-----------|--------------|
-| 5                | 8.09        | 20.66       | 52.01       | 19.68     | 17.62     | Only 2/5     |
-| 10               | 7.08        | 19.62       | 47.24       | Only 7/10 | Only 6/10 | Only 3/10    |
-| 25               | 5.45        | 16.79       | 42.59       | Only 17/25| Only 14/25| Only 10/25   |
-| 50               | 4.36        | 14.82       | 37.66       | 13.60     | Only 30/50| Only 20/50  |
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr  | 10y cagr    |
+|------------------------|-------------|-------------|-------------|-------------|---------|----------|-------------|
+| 5                      | 1963.42     | 8.09        | 20.67       | 52.01       | 19.68   | 22.03    | Only 2/5    |
+| 10                     | 3340.95     | 7.08        | 19.62       | 47.24       | Only 7/10 | Only 6/10 | Only 3/10   |
+| 25                     | 9381.27     | 5.45        | 16.79       | 42.59       | Only 17/25 | Only 14/25 | Only 10/25 |
+| 50                     | 6526.33     | 4.36        | 14.82       | 37.66       | 17.44   | Only 30/50 | Only 20/50 |
 
 Same as above table but with excess returns over Nifty 500 : 
 
-| N in Top N funds | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
-|------------------|-------------|-------------|-------------|---------|---------|----------|
-| 5                | 9.30        | 10.03       | 20.78       | 6.26    | -0.90   | -        |
-| 10               | 8.29        | 8.99        | 16.01       | -       | -       | -        |
-| 25               | 6.66        | 6.15        | 11.36       | -       | -       | -        |
-| 50               | 5.57        | 4.19        | 6.43        | 0.18    | -       | -        |
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 1963.42     | 9.30        | 10.04       | 20.78       | 6.26    | 3.51    | -        |
+| 10.00                  | 3340.95     | 8.29        | 8.99        | 16.01       | -       | -       | -        |
+| 25.00                  | 9381.27     | 6.66        | 6.16        | 11.36       | -       | -       | -        |
+| 50.00                  | 6526.33     | 5.57        | 4.19        | 6.43        | 4.02    | -       | -        |
+
+* Most of the funds are new so its taking 
+
+### Picking the top 6-month toppers
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 7063.04     | 6.87        | 21.47       | 50.66       | 20.15   | 22.26   | Only 3/5 |
+| 10.00                  | 6039.92     | 5.51        | 20.00       | 46.04       | 18.30   | 21.64   | Only 6/10|
+| 25.00                  | 4289.52     | 4.48        | 18.09       | 45.13       | 18.27   | Only 18/25 | Only 12/25 |
+| 50.00                  | 5470.45     | 3.46        | 16.62       | 41.25       | 17.50   | Only 33/50 | Only 25/50 |
+
+Excess returns over Nifty 500 : 
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 7063.04     | 8.08        | 10.84       | 19.43       | 6.73    | 3.74    | -        |
+| 10.00                  | 6039.92     | 6.72        | 9.37        | 14.81       | 4.88    | 3.12    | -        |
+| 25.00                  | 4289.52     | 5.69        | 7.46        | 13.90       | 4.85    | -       | -        |
+| 50.00                  | 5470.45     | 4.67        | 5.99        | 10.02       | 4.08    | -       | -        |
+
+### Picking the top 1-year toppers
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr  | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|----------|----------|
+| 5.00                   | 1748.98     | 4.22        | 16.97       | 56.21       | 21.36   | Only 3/5 | Only 0/5 |
+| 10.00                  | 1968.54     | 2.16        | 14.43       | 53.74       | Only 7/10 | Only 5/10 | Only 2/10 |
+| 25.00                  | 4672.23     | 2.73        | 15.47       | 49.32       | 21.46   | Only 16/25 | Only 12/25 |
+| 50.00                  | 6210.43     | 2.03        | 14.31       | 45.78       | 20.83   | Only 37/50 | Only 29/50 |
+
+Excess returns over Nifty 500 : 
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 1748.98     | 5.43        | 6.34        | 24.98       | 7.94    | -       | -        |
+| 10.00                  | 1968.54     | 3.37        | 3.80        | 22.51       | -       | -       | -        |
+| 25.00                  | 4672.23     | 3.94        | 4.84        | 18.09       | 8.04    | -       | -        |
+| 50.00                  | 6210.43     | 3.24        | 3.68        | 14.55       | 7.41    | -       | -        |
+
+### Picking the top 3-year toppers
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 5371.57     | 1.41        | 12.75       | 46.24       | 25.03   | 25.96   | 17.35    |
+| 10.00                  | 17944.60    | 2.10        | 13.64       | 45.93       | 24.31   | 26.13   | 17.14    |
+| 25.00                  | 11751.49    | 1.62        | 13.23       | 43.16       | 22.84   | 25.66   | Only 15/25 |
+| 50.00                  | 8088.74     | 1.55        | 13.16       | 41.21       | 21.54   | 26.07   | Only 25/50 |
+
+Excess returns over Nifty 500 : 
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 5371.57     | 2.62        | 2.12        | 15.01       | 11.61   | 7.44    | 4.45     |
+| 10.00                  | 17944.60    | 3.31        | 3.01        | 14.70       | 10.89   | 7.61    | 4.24     |
+| 25.00                  | 11751.49    | 2.83        | 2.60        | 11.93       | 9.42    | 7.14    | -        |
+| 50.00                  | 8088.74     | 2.76        | 2.53        | 9.98        | 8.12    | 7.55    | -        |
 
 
+### Picking the top 5-year toppers
 
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 11810.97    | -0.90       | 8.41        | 34.01       | 20.96   | 31.73   | Only 3/5 |
+| 10.00                  | 5946.85     | 0.51        | 10.15       | 30.30       | 20.47   | 30.50   | Only 3/10|
+| 25.00                  | 10006.22    | 0.49        | 11.43       | 37.08       | 21.10   | 28.07   | Only 15/25 |
+| 50.00                  | 9314.56     | 0.92        | 12.37       | 39.22       | 20.50   | 26.09   | Only 31/50 |
 
+Excess returns over Nifty 500 : 
 
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 11810.97    | 0.31        | -2.22       | 2.78        | 7.54    | 13.21   | -        |
+| 10.00                  | 5946.85     | 1.72        | -0.48       | -0.93       | 7.05    | 11.98   | -        |
+| 25.00                  | 10006.22    | 1.70        | 0.80        | 5.85        | 7.68    | 9.55    | -        |
+| 50.00                  | 9314.56     | 2.13        | 1.74        | 7.99        | 7.08    | 7.57    | -        |
 
+### Picking the top 10-year toppers
 
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 21243.70    | -1.54       | 9.19        | 41.99       | 21.66   | 29.12   | 20.18    |
+| 10.00                  | 14898.48    | -0.57       | 10.22       | 41.32       | 20.48   | 27.00   | 19.16    |
+| 25.00                  | 13140.13    | 0.39        | 11.82       | 40.73       | 20.05   | 25.29   | 17.85    |
+| 50.00                  | 13513.50    | 1.02        | 12.29       | 38.68       | 18.83   | 23.42   | 16.65    |
+
+Excess returns over Nifty 500 : 
+
+| Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
+|------------------------|-------------|-------------|-------------|-------------|---------|---------|----------|
+| 5.00                   | 21243.70    | -0.33       | -1.44       | 10.76       | 8.24    | 10.60   | 7.28     |
+| 10.00                  | 14898.48    | 0.64        | -0.41       | 10.09       | 7.06    | 8.48    | 6.26     |
+| 25.00                  | 13140.13    | 1.60        | 1.19        | 9.50        | 6.63    | 6.77    | 4.95     |
+| 50.00                  | 13513.50    | 2.22        | 1.66        | 7.45        | 5.41    | 4.90    | 3.75     |
