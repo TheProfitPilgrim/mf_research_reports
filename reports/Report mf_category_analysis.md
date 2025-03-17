@@ -8,15 +8,22 @@
 
 SEBI classifies MFs into 5 categories : Equity, Debt, Hybrid, Solution Oriented and Other Schemes
 
-Data : ['consolidated-sheet'](https://docs.google.com/spreadsheets/d/1Wt2c9Jm5qCvfWe2BfyWQ23WQ7o5U3l_OvS1q4byt9S4/edit?gid=987646402#gid=987646402) (Has 1391 total funds)
+Data : ['consolidated-sheet'](https://docs.google.com/spreadsheets/d/1Wt2c9Jm5qCvfWe2BfyWQ23WQ7o5U3l_OvS1q4byt9S4/edit?gid=987646402#gid=987646402) (Has 1391 total funds). An updated version of this with benchmarks added : ['W benchmarks']()
 
 Then used [List of benchmark index for each category](https://www.amfiindia.com/research-information/other-data/listofbenchmarkindices) to get the benchmark for each fund
+
+## Why this? 
+
+* I tried forming portfolios using an arbitrary system and found it hard to evaluate the performance since each MF belongs to a category of its own with its own benchmark.
+* Here I "level the playing field" (all of the funds have same benchmark) and try moving inputs around to see how the outperformance is affected 
 
 ##  Funds with Nifty 500 as benchmark
 
 Lets filter the funds which have Nifty 500 as benchmark
 
- The dataset is static and it was created on Nov 10, 2024 so that will be used as the latest date for return calculations.
+ The dataset is static and it was created on Nov 10, 2024 so that will be used as the latest date for return calculations. 
+
+ Index funds have not been considered, since they track almost except for a small tracking error.
 
  Nifty 500 Benchmark Performance : 
 
@@ -36,7 +43,10 @@ Only the following type of funds have Nifty 500 Benchmark according to SEBI :
 
 Notes : 
 1. All the fund return table values are Arithmetic Mean of the values of individual funds in the pf with N funds (i.e, pf return if equal allocation)
-2. Suppose top 20 funds are picked based on best 3 month recent return and 2/20 of the funds have existed for only 5 months, then for the mean calculation of 6 month and higher periods, these will be excluded. A minimum of 75% of the funds must have a particular data point to calculate average. 
+2. Suppose top 20 funds are picked based on best 3 month recent return and 2/20 of the funds have existed for only 5 months, then for the mean calculation of 6 month and higher periods, these will be excluded. A minimum of 75% of the funds must have a particular data point to calculate average
+3. There is no back testing or some other measure that is being done to see how effective this selection is - its just picking the **current** funds that show up and aggregating their historical performance numbers to look for something interesting.  
+
+The following tables are concise results (standalone and comparitive) of the various formed portfolios. Though its lengthy (2 x 6 =12 tables), the data is easy to interpret and can provide insights. Only 2 parameters are being varied - one is ***selection process*** (picking the best short, mid and long term performers) and the other is ***the number of funds in the portfolio***. Skip the tables to the observations section below.   
 
 ### Picking the top 3-month toppers 
 
@@ -55,8 +65,6 @@ Same as above table but with excess returns over Nifty 500 :
 | 10.00                  | 3340.95     | 8.29        | 8.99        | 16.01       | -       | -       | -        |
 | 25.00                  | 9381.27     | 6.66        | 6.16        | 11.36       | -       | -       | -        |
 | 50.00                  | 6526.33     | 5.57        | 4.19        | 6.43        | 4.02    | -       | -        |
-
-* Most of the funds are new so its taking 
 
 ### Picking the top 6-month toppers
 
@@ -112,7 +120,6 @@ Excess returns over Nifty 500 :
 | 25.00                  | 11751.49    | 2.83        | 2.60        | 11.93       | 9.42    | 7.14    | -        |
 | 50.00                  | 8088.74     | 2.76        | 2.53        | 9.98        | 8.12    | 7.55    | -        |
 
-
 ### Picking the top 5-year toppers
 
 | Portfolio size (funds) | AUM average | 3m absolute | 6m absolute | 1y absolute | 3y cagr | 5y cagr | 10y cagr |
@@ -148,3 +155,31 @@ Excess returns over Nifty 500 :
 | 10.00                  | 14898.48    | 0.64        | -0.41       | 10.09       | 7.06    | 8.48    | 6.26     |
 | 25.00                  | 13140.13    | 1.60        | 1.19        | 9.50        | 6.63    | 6.77    | 4.95     |
 | 50.00                  | 13513.50    | 2.22        | 1.66        | 7.45        | 5.41    | 4.90    | 3.75     |
+
+## Observations
+
+1. *Across all the selections* (the data used for plotting is combined one with all 12) + *Across all the time periods of return like 3m, 1y* (all 6 graphs below) : There is a clear trend : 
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture42.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture43.png) |
+|-----------------------|-----------------------|
+| 3m | 6m |
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture44.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture45.png) |
+|-----------------------|-----------------------|
+| 1y | 3y |
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture46.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture47.png) |
+|-----------------------|-----------------------|
+| 5y | 10y |
+
+* As number of funds in portfolio ⬇️, portfolio return ⬆️ 
+* 5y returns is an exception where 25 funds perform better than 5&10
+* This is not surprising, more concentrated portfolio giving better returns
+
+2. Though we cannot comment on the portfolio's volatility using this data (need to consider correlation b/w funds), we can find out the average volatility of the PFs to get an idea of the volatility of the individual funds forming the PFs
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture48.png)
+
+* This relation is not surprising. From 1, we get that concentrated portfolios perform better. The above graph shows that the funds forming these PFs are more volatile too.
+
+3. 
