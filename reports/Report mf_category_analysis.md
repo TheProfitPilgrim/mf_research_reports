@@ -158,7 +158,7 @@ Excess returns over Nifty 500 :
 
 ## Observations
 
-1. *Across all the selections* (the data used for plotting is combined one with all 12) + *Across all the time periods of return like 3m, 1y* (all 6 graphs below) : There is a clear trend : 
+1. **Fund Size vs Performance** : *Across all the selections* (the data used for plotting is combined one with all 12) + *Across all the time periods of return like 3m, 1y* (all 6 graphs below) : There is a clear trend : 
 
 | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture42.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture43.png) |
 |-----------------------|-----------------------|
@@ -176,10 +176,21 @@ Excess returns over Nifty 500 :
 * 5y returns is an exception where 25 funds perform better than 5&10
 * This is not surprising, more concentrated portfolio giving better returns
 
-2. Though we cannot comment on the portfolio's volatility using this data (need to consider correlation b/w funds), we can find out the average volatility of the PFs to get an idea of the volatility of the individual funds forming the PFs
+2. **Fund Size vs Volatility**: Though we cannot comment on the portfolio's volatility using this data (need to consider correlation b/w funds), we can find out the average volatility of the PFs to get an idea of the volatility of the individual funds forming the PFs
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture48.png)
 
 * This relation is not surprising. From 1, we get that concentrated portfolios perform better. The above graph shows that the funds forming these PFs are more volatile too.
 
-3. 
+3. **Fund Size vs Aum** : The average AUM increases sharply to peak at 25 funds before dropping back for the 50 funds case.
+
+* When picking the top performing funds, the first few are generally newer funds that have shown extraordinary performance due to a time-period bias. Due to this, the average AUM is pretty low for these. 5 & 10 fall under this category
+
+* However, I think 25 fund PFs show a balance where the funds are performing well and are big as well 
+
+* In the 50 fund case, I think the net has become too huge and includes small funds and hence it has dropped back again. 
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture49.png)
+
+4. **AUM vs Out Performance** : 
+
