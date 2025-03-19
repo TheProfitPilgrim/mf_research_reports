@@ -192,5 +192,21 @@ Excess returns over Nifty 500 :
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture49.png)
 
-4. **AUM vs Out Performance** : 
+4. **AUM vs Out Performance** 
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture50.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture51.png) |
+|-----------------------|-----------------------|
+| 3m | 6m |
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture52.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture53.png) |
+|-----------------------|-----------------------|
+| 1y | 3y |
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture54.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture55.png) |
+|-----------------------|-----------------------|
+| 5y | 10y |
+
+* From visual inspection, there does not seem to be any clear trend or relation between AUM and the performance. 
+
+* We can also see that as smaller funds with lower AUM disappear as the track record increases which also confirms that *newer funds have a lower AUM* 
 
