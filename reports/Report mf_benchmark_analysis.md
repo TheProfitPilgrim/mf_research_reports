@@ -1,4 +1,4 @@
-# MF Category Analysis
+# MF Benchmark wise filter : Nifty 500
 
 [The active SEBI circular regarding this](https://www.sebi.gov.in/legal/circulars/oct-2017/categorization-and-rationalization-of-mutual-fund-schemes_36199.html) : 6th Oct 2017
 
