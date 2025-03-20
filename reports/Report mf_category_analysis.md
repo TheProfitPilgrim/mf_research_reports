@@ -241,4 +241,4 @@ The variables that are interesting are : Fund Size, Performance, AUM, Volatility
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture58.png)
 
-* The average outperformance is maximum for 1 year period it then falls apart 
+* The average outperformance is maximum for 1 year period
