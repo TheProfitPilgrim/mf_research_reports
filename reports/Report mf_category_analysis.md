@@ -8,7 +8,7 @@
 
 SEBI classifies MFs into 5 categories : Equity, Debt, Hybrid, Solution Oriented and Other Schemes
 
-Data : ['consolidated-sheet'](https://docs.google.com/spreadsheets/d/1Wt2c9Jm5qCvfWe2BfyWQ23WQ7o5U3l_OvS1q4byt9S4/edit?gid=987646402#gid=987646402) (Has 1391 total funds). An updated version of this with benchmarks added : ['W benchmarks']()
+Data : ['consolidated-sheet'](https://docs.google.com/spreadsheets/d/1Wt2c9Jm5qCvfWe2BfyWQ23WQ7o5U3l_OvS1q4byt9S4/edit?gid=987646402#gid=987646402) (Has 1391 total funds). An updated version of this with benchmarks added : ['With benchmarks'](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/report_src/category_analysis/fund_sheet.csv)
 
 Then used [List of benchmark index for each category](https://www.amfiindia.com/research-information/other-data/listofbenchmarkindices) to get the benchmark for each fund
 
@@ -16,6 +16,23 @@ Then used [List of benchmark index for each category](https://www.amfiindia.com/
 
 * I tried forming portfolios using an arbitrary system and found it hard to evaluate the performance since each MF belongs to a category of its own with its own benchmark.
 * Here I "level the playing field" (all of the funds have same benchmark) and try moving inputs around to see how the outperformance is affected 
+
+Tldr 🥱😴 :
+
+ 1. As number of funds in portfolio *decreases*: 
+   
+    * Performance across all time periods *increases*
+    * Average volatility of funds in the pf *increases*
+    * Aum peaks at 25 funds b/w 5,10,25 and 50 
+
+2. Newer funds have lower AUM and and thus, as time period of return increases, low AUM funds (newer) have no data points for 5 or 10 yr cagr. 
+
+* There is a case of funds being old but the AUM being low. I think these funds haven't garnered as much AUM because their performance is not impressive. If this is the case, then they're not going to appear when the funds are sorted as per best performance and top N are picked. 
+* As the AUM increases, there is a weak decreasing trend for short term periods, implying an inverse relation but for mid term period, this trend goes away.
+
+3. There is a weak trend of returns across all time periods increasing with volatility
+
+4. Amongst 3m,6m,1y,3y,5y, 10y, 1 year period shows the most outperformance against Nifty 500. Most likely since the data is till 2024 Sep/Oct at the top of bull market.  
 
 ##  Funds with Nifty 500 as benchmark
 
@@ -160,7 +177,7 @@ Excess returns over Nifty 500 :
 
 The variables that are interesting are : Fund Size, Performance, AUM, Volatility
 
-1. **Fund Size vs Performance** : *Across all the selections* (the data used for plotting is combined one with all 12) + *Across all the time periods of return like 3m, 1y* (all 6 graphs below) : There is a clear trend : 
+1. **Portfolio Size vs Performance** : *Across all the selections* (the data used for plotting is combined one with all 12) + *Across all the time periods of return like 3m, 1y* (all 6 graphs below) : There is a clear trend : 
 
 | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture42.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture43.png) |
 |-----------------------|-----------------------|
@@ -178,13 +195,13 @@ The variables that are interesting are : Fund Size, Performance, AUM, Volatility
 * 5y returns is an exception where 25 funds perform better than 5&10
 * This is not surprising, more concentrated portfolio giving better returns
 
-2. **Fund Size vs Volatility**: Though we cannot comment on the portfolio's volatility using this data (need to consider correlation b/w funds), we can find out the average volatility of the PFs to get an idea of the volatility of the individual funds forming the PFs
+2. **Portfolio Size vs Volatility**: Though we cannot comment on the portfolio's volatility using this data (need to consider correlation b/w funds), we can find out the average volatility of the PFs to get an idea of the volatility of the individual funds forming the PFs
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture48.png)
 
 * This relation is not surprising. From 1, we get that concentrated portfolios perform better. The above graph shows that the funds forming these PFs are more volatile too.
 
-3. **Fund Size vs Aum** : The average AUM increases sharply to peak at 25 funds before dropping back for the 50 funds case.
+3. **Portfolio Size vs Aum** : The average AUM increases sharply to peak at 25 funds before dropping back for the 50 funds case.
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture49.png)
 
@@ -208,7 +225,7 @@ The variables that are interesting are : Fund Size, Performance, AUM, Volatility
 |-----------------------|-----------------------|
 | 5y | 10y |
 
-* From visual inspection, there does not seem to be any clear trend or relation between AUM and the performance. 
+* From visual inspection, there is a decreasing trend for short term periods, implying an inverse relation but for mid term period, this trend goes away. 
 
 * We can also see that as smaller funds with lower AUM disappear as the track record increases which also confirms that *newer funds have a lower AUM* 
 
@@ -217,3 +234,11 @@ The variables that are interesting are : Fund Size, Performance, AUM, Volatility
 | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture56.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture57.png) |
 |-----------------------|-----------------------|
 | 3m, 6m, 1y | 3y, 5y, 10 |
+
+* Across the periods, there is a slight trend of returns increasing with volatility but its not pronounced
+
+6. **Out-performance vs Time period** : 
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture58.png)
+
+* The average outperformance is maximum for 1 year period it then falls apart 
