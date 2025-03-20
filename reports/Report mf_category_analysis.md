@@ -158,6 +158,8 @@ Excess returns over Nifty 500 :
 
 ## Observations
 
+The variables that are interesting are : Fund Size, Performance, AUM, Volatility
+
 1. **Fund Size vs Performance** : *Across all the selections* (the data used for plotting is combined one with all 12) + *Across all the time periods of return like 3m, 1y* (all 6 graphs below) : There is a clear trend : 
 
 | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture42.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture43.png) |
@@ -184,15 +186,15 @@ Excess returns over Nifty 500 :
 
 3. **Fund Size vs Aum** : The average AUM increases sharply to peak at 25 funds before dropping back for the 50 funds case.
 
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture49.png)
+
 * When picking the top performing funds, the first few are generally newer funds that have shown extraordinary performance due to a time-period bias. Due to this, the average AUM is pretty low for these. 5 & 10 fall under this category
 
 * However, I think 25 fund PFs show a balance where the funds are performing well and are big as well 
 
 * In the 50 fund case, I think the net has become too huge and includes small funds and hence it has dropped back again. 
 
-![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture49.png)
-
-4. **AUM vs Out Performance** 
+4. **AUM vs Out-Performance** 
 
 | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture50.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture51.png) |
 |-----------------------|-----------------------|
@@ -210,3 +212,8 @@ Excess returns over Nifty 500 :
 
 * We can also see that as smaller funds with lower AUM disappear as the track record increases which also confirms that *newer funds have a lower AUM* 
 
+5. **Out-Performance vs Volatility** : 
+
+| ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture56.png) | ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture57.png) |
+|-----------------------|-----------------------|
+| 3m, 6m, 1y | 3y, 5y, 10 |
