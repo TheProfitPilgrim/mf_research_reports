@@ -35,6 +35,8 @@ I was expecting the curve to be a lot flatter
     2. Higher than 80th percentile : Calculate the number of days it takes from that day to get *below* 80th percentile and store it in overvalued category 
     3. B/w the two : Ignore and continue
 
+### 80-20 case :
+
 Now the average of the overvalued category is ~338 days whereas the average of the undervalued category is ~156 days.
 
 * Thus markets stay overvalued for almost twice as long as being undervalued on average 
@@ -42,4 +44,21 @@ Now the average of the overvalued category is ~338 days whereas the average of t
 Distribution of overval & underval days : 
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture61.png) 
+
+How does this change if we look at over percentile combos : 90/10 (extremes), 70/30 (moderate)? 
+
+### 90-10 case :
+
+Overvalued : ~108 days, Undervalued : ~61 days
+It makes perfect sense - since its more extremeity, both movements are happening faster but the relation b/w them still holds good
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture62.png) 
+
+### 70-30 case :
+
+Overvalued : ~311 days, Undervalued : ~182 days
+Again perfectly inline with expectation
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture63.png) 
+
 
