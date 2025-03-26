@@ -4,6 +4,9 @@ In [Price vs Earnings](https://github.com/TheProfitPilgrim/mf_research_reports/b
 
 Tldr 🥱😴 :
 
+* Mean, median PE has been on a gradual increase in the past 25 yrs
+* Markets tend to remain overvalued for longer than they remain undervalued
+
 [Data](https://github.com/TheProfitPilgrim/mf_research_reports/tree/main/reports/report_src/mf_index_analysis/Data/india_data) : Daily Price, PE, Earnings of Nifty 50 for past 26 years
 
 ## Experiment 1
