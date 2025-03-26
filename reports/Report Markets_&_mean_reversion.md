@@ -10,7 +10,7 @@ Tldr 🥱😴 :
 
 1. Start recording the PE of Nifty 50 daily from Jan 1. 
 2. Continue to record the daily PE on one track and on the first day of 2005, calculate the mean, median PE using ALL the data collected until that point.
-3. Now apart from recording the daily PE, also compute the mean, median PE daily using all the previous (including yesterday's) PE data.
+3. Now apart from recording the daily PE, also compute the mean, median PE daily using all the previous PE data.
 
 Now in 2025 plot all the mean, median PE values of Nifty 50 from 2005 : 
 
@@ -22,13 +22,13 @@ There is clearly an increasing trend for the cumulative mean, median PE. Maybe b
 
 The upward trend still persists. 
 
-Lets check the same graph for S&P 500
+Lets check the same graph for S&P 500 (From 1943 - 2024))
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture64.png) 
 
-Why is this? Is the Indian stock market getting more and more overvalued in general? Is it due to the changing dominant sector of companies (say like IT vs Bank) and thus people are willing to pay a higher multiple? Is this expected to continue? 
+We can see that in the past 25 yrs, there is a clear upward drift in the median PE across both S&P 500 and the Nifty 50. Why is this? Is this expected to continue? 
 
-I was expecting the curve to be a lot flatter
+I was expecting the curves to be a lot flatter. 
 
 ## Experiment 2 : 
 
