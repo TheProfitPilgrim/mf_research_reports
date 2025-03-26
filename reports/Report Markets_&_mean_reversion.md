@@ -22,6 +22,10 @@ There is clearly an increasing trend for the cumulative mean, median PE. Maybe b
 
 The upward trend still persists. 
 
+Lets check the same graph for S&P 500
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture64.png) 
+
 Why is this? Is the Indian stock market getting more and more overvalued in general? Is it due to the changing dominant sector of companies (say like IT vs Bank) and thus people are willing to pay a higher multiple? Is this expected to continue? 
 
 I was expecting the curve to be a lot flatter
@@ -35,11 +39,11 @@ I was expecting the curve to be a lot flatter
     2. Higher than 80th percentile : Calculate the number of days it takes from that day to get *below* 80th percentile and store it in overvalued category 
     3. B/w the two : Ignore and continue
 
+The above has a flaw : Data look ahead bias (since future data is being used to calculate the 80th and 20th percentiles). But its main purpose is comparison b/w overval and underval cases. 
+
 ### 80-20 case :
 
 Now the average of the overvalued category is ~338 days whereas the average of the undervalued category is ~156 days.
-
-* Thus markets stay overvalued for almost twice as long as being undervalued on average 
 
 Distribution of overval & underval days : 
 
@@ -61,4 +65,30 @@ Again perfectly inline with expectation
 
 ![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture63.png) 
 
+* Thus markets stay "overvalued" for almost twice as long as being "undervalued" on average 
 
+## Checking for mean reversion in PE values
+
+For the following statistical tests, the book Algorithmic Trading : Winning Strategies and their Rationale by Ernst P Chan has been used as reference. 
+
+> The mathematical description of a mean-reverting price series is that the change of the price series in the next period is proportional to the difference between the mean price and the current price. 
+
+### ADF + P-values
+
+Mean reverting series of values are stationary - constant mean, variance over time. Lets first check for stationarity. 
+
+ADF test + P values : with ADF test, if we reject null hypothesis it indicates that the data is stationary. 
+
+ADF = -3.43 ; P-value = 0.0099
+
+The negative ADF value of -3.43 and  P value < 0.01 (==>99% confidence level) indicate that the null hypothesis is very strongly being rejected, i.e, that ***the PE data is stationary***
+
+### Half-life of mean reversion
+
+Half life = ~273 days. This means that mean reversion for the market's PE from deviation doesn't happen in the short-term (like in a couple of months or qtrs) 
+
+### Hurst Exponent 
+
+Another check for mean reversion is Hurst Exponent. > 0.5 means trending, <0.5 means mean-reverting and 0.5 means random walk
+
+The Hurst exponent values is ~0.47 which shows that its weakly mean reverting
