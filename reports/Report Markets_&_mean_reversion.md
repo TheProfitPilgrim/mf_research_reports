@@ -46,7 +46,7 @@ Lets see Indian 10y - govt bond yield :
 
 Possible explanation : As India and its markets grew larger and larger (in the past 25 yrs), it moved away from emerging market and more towards a mature market. If this was the case, the country risk premium that investors put for investing in India would have kept coming down. The interest rates have also kept coming down. All these factors could contribute to a lower discount rate being applied. 
 
-Thus the same Earnings increase of 100 discounted @ 12% is ~833.33 and discount @ 5% is 2000. Thus showing an increase in slope of regression across time.
+Thus the same Earnings increase of 100 discounted @ 12% is ~833.33 and discount @ 6.5% is 1538. Thus showing an increase in slope of regression across time.
 
 ## Experiment 2 : 
 
