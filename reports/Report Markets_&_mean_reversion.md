@@ -3,6 +3,7 @@
 In [Price vs Earnings](https://github.com/TheProfitPilgrim/mf_research_reports/blob/main/reports/Report%20Indices_Price_vs_Earnings.md), I tried to make an [direction predictor](https://mfproject.streamlit.app/index_ptr) using Mean reversion idea. Here I look at this idea in detail
 
 Tldr 🥱😴 :
+to be added
 
 * Mean, median PE has been on a gradual increase in the past 25 yrs
 * Markets tend to remain overvalued for longer than they remain undervalued
@@ -32,6 +33,20 @@ Lets check the same graph for S&P 500 (From 1943 - 2024))
 We can see that in the past 25 yrs, there is a clear upward drift in the median PE across both S&P 500 and the Nifty 50. Why is this? Is this expected to continue? 
 
 I was expecting the curves to be a lot flatter. 
+
+The increasing median PE over time indicates that investors are willing to pay a higher multiple
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture65.png)
+
+I'm seeing a similar trend in linear regression as well. Across time, the angle with x-axis is increasing ==> slope increasing ==> for the same change in earnings, a higher price jump is occurring ==> so why exactly are people valuing same earnings at a higher value now? 
+
+Lets see Indian 10y - govt bond yield : 
+
+![Graph](https://raw.githubusercontent.com/TheProfitPilgrim/mf_research_reports/main/reports/report_media/Picture66.png)
+
+Possible explanation : As India and its markets grew larger and larger (in the past 25 yrs), it moved away from emerging market and more towards a mature market. If this was the case, the country risk premium that investors put for investing in India would have kept coming down. The interest rates have also kept coming down. All these factors could contribute to a lower discount rate being applied. 
+
+Thus the same Earnings increase of 100 discounted @ 12% is ~833.33 and discount @ 5% is 2000. Thus showing an increase in slope of regression across time.
 
 ## Experiment 2 : 
 
